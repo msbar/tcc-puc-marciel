@@ -142,6 +142,5 @@ migrations/
 # logs
 logs/
 *.log
-datafiles/
 token.json
 google_api_credentials.json
