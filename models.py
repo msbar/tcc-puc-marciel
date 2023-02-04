@@ -4,8 +4,9 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 
-class dataset(Base):
+class Dataset(Base):
     __tablename__ = "dataset"
+    __added_columns__ = ["id"]
 
     id = Column(INTEGER, primary_key=True)
     regiao_sigla = Column(VARCHAR(255))
