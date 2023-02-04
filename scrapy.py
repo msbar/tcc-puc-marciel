@@ -25,5 +25,5 @@ def download():
         download_file_stream(url, dest_folder="datafiles")
 
 
-if __name__ == "__main__":
+def execute():
     download()
