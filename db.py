@@ -6,7 +6,7 @@ class ConnectionHandler:
     engine = None
 
     def __init__(self):
-        self.sqlite_file_name = "combustivel.db"
+        self.sqlite_file_name = "base.db"
         self.sqlite_url = f"sqlite:///{self.sqlite_file_name}"
         self.engine = create_engine(self.sqlite_url)
 
